@@ -1,0 +1,46 @@
+.Lbl{
+    -fx-background-color: linear-gradient(to right bottom,#0061ff,#60efff);
+    -fx-background-radius: 15 15 15 15 ;
+}
+.button:hover{
+    -fx-background-color: #c6f8ff;
+}
+.buttonPressed:pressed{
+    -fx-background-color: #918dac;
+}
+.DashBoard{
+    -fx-background-color: linear-gradient(to right bottom,#ebf4f5,#b5c6e0);
+ 
+}
+.Dash2{
+    -fx-background-color: linear-gradient(to right bottom,#9bafd9,#103783);
+}
+.AnchorPane{
+    -fx-background-color: linear-gradient(#08203e,#557c93);
+}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.AnchorPane2{
+    -fx-background-color: linear-gradient(to left bottom ,#30c5d2,#471069);
+}
+.AnchorPane3{
+    -fx-background-color: linear-gradient(#bda734,#f7f2ab);
+}
+.AnchorPane4{
+    -fx-background-color: linear-gradient(#42047e,#07f49e);
+}
+.AnchorPane5{
+    -fx-background-color: linear-gradient(to top ,#ef745c,#34073d);
+}
+
+.AnchorPane6{
+    -fx-background-color: linear-gradient(to top ,#ed71ad,#7277f1);
+}
+.AnchorPane7{
+    -fx-background-color: linear-gradient(to bottom ,#000328,#00458e);
+}
+.AnchorPane8{
+    -fx-background-color: linear-gradient(to bottom ,#392d69,#b57bee);
+}
+
+

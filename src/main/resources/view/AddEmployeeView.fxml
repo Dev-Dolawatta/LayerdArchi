@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="empRegisPane" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane7" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.AddEmployeeViewController">
+   <children>
+      <Pane layoutX="43.0" layoutY="60.0" prefHeight="321.0" prefWidth="448.0" style="-fx-background-color: #3c8cde;">
+         <children>
+            <Label layoutX="36.0" layoutY="40.0" prefHeight="32.0" prefWidth="99.0" text="Employee Id">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="95.0" prefHeight="32.0" prefWidth="122.0" text="Employee Name">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="161.0" prefHeight="32.0" prefWidth="99.0" text="Position">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="219.0" prefHeight="32.0" prefWidth="99.0" text="Clinic Id">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtName" layoutX="224.0" layoutY="95.0" prefHeight="32.0" prefWidth="210.0" />
+            <TextField fx:id="txtId" layoutX="224.0" layoutY="40.0" prefHeight="32.0" prefWidth="122.0" />
+            <ComboBox fx:id="txtCombo" layoutX="224.0" layoutY="161.0" prefHeight="32.0" prefWidth="150.0" />
+            <TextField fx:id="txtClinicId" layoutX="224.0" layoutY="219.0" prefHeight="32.0" prefWidth="122.0" />
+            <Button layoutX="366.0" layoutY="275.0" mnemonicParsing="false" onAction="#addOnClick" prefHeight="32.0" prefWidth="68.0" stylesheets="@../Style.css" text="Add">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="Lbl" />
+                  <String fx:value="buttonPressed" />
+               </styleClass>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="177.0" layoutY="14.0" text="Employee Registration" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="526.0" layoutY="358.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="32.0" prefWidth="68.0" stylesheets="@../Style.css" text="Back">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

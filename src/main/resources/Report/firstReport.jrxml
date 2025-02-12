@@ -1,0 +1,165 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="firstReport" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d4e85a20-aa3d-493a-9e63-d835cf48aa3e">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="clinicManagement"/>
+	<query language="SQL"><![CDATA[select * from Patient]]></query>
+	<field name="PatientId" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="PatientId"/>
+		<property name="com.jaspersoft.studio.field.label" value="PatientId"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="Name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Name"/>
+		<property name="com.jaspersoft.studio.field.label" value="Name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="Address" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Address"/>
+		<property name="com.jaspersoft.studio.field.label" value="Address"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="Gender" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Gender"/>
+		<property name="com.jaspersoft.studio.field.label" value="Gender"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="Age" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="Age"/>
+		<property name="com.jaspersoft.studio.field.label" value="Age"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="Phone" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="Phone"/>
+		<property name="com.jaspersoft.studio.field.label" value="Phone"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="BloodGroup" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="BloodGroup"/>
+		<property name="com.jaspersoft.studio.field.label" value="BloodGroup"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="HeartRate" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="HeartRate"/>
+		<property name="com.jaspersoft.studio.field.label" value="HeartRate"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="BloodPressure" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="BloodPressure"/>
+		<property name="com.jaspersoft.studio.field.label" value="BloodPressure"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="Status" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Status"/>
+		<property name="com.jaspersoft.studio.field.label" value="Status"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<field name="ClinicToBeAssigned" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="ClinicToBeAssigned"/>
+		<property name="com.jaspersoft.studio.field.label" value="ClinicToBeAssigned"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="patient"/>
+	</field>
+	<background splitType="Stretch"/>
+	<title height="84" splitType="Stretch">
+		<element kind="staticText" uuid="541aaef8-6c61-45b3-a7e4-212f5fe9c810" x="200" y="20" width="160" height="30" fontName="Berlin Sans FB" fontSize="20.0">
+			<text><![CDATA[   Patient Details]]></text>
+		</element>
+	</title>
+	<pageHeader height="35" splitType="Stretch"/>
+	<columnHeader height="40" splitType="Stretch">
+		<element kind="staticText" uuid="4fa61f4e-8f88-47f6-85ce-9dc24fb9c1d6" x="0" y="0" width="55" height="30">
+			<text><![CDATA[PatientId]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bcc5b4c6-11f5-4d48-b83e-8d36f5f6ddbc"/>
+		</element>
+		<element kind="staticText" uuid="bbedbc6e-f8b9-4ee8-a2f6-cb737bf30fce" x="55" y="0" width="50" height="30">
+			<text><![CDATA[Name]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ef453c48-cd5e-4ead-8e83-fd763eae1d94"/>
+		</element>
+		<element kind="staticText" uuid="db58fc54-bbdb-46d5-a936-849cbbebde46" x="105" y="0" width="50" height="30">
+			<text><![CDATA[Address]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a6a4bfee-19a3-4a00-a1ac-b40b8579b5bc"/>
+		</element>
+		<element kind="staticText" uuid="41f92a96-2bed-4bf6-afeb-97bde7162b92" x="155" y="0" width="50" height="30">
+			<text><![CDATA[Gender]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b03d12da-71a0-450d-8766-f15496e63c82"/>
+		</element>
+		<element kind="staticText" uuid="45ed628d-a19e-46e9-b6ca-b34d6c8565cd" x="205" y="0" width="50" height="30">
+			<text><![CDATA[Age]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="29f9355c-6d5f-48ce-be5b-66aa00759c79"/>
+		</element>
+		<element kind="staticText" uuid="cd90f4c6-5ef2-4714-9654-1a98567ae210" x="255" y="0" width="50" height="30">
+			<text><![CDATA[Phone]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="157dca0d-861b-4272-96f7-8c85c0823da7"/>
+		</element>
+		<element kind="staticText" uuid="9f8871a0-ddf6-4390-b50b-ca5fd923cba1" x="305" y="0" width="50" height="30">
+			<text><![CDATA[BloodGroup]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5866ec96-4ed3-417f-ac9b-7aa3326916a5"/>
+		</element>
+		<element kind="staticText" uuid="ac6d908a-7f6a-40df-95a6-73748df8d7ec" x="355" y="0" width="50" height="30">
+			<text><![CDATA[HeartRate]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b92de6b8-904d-4a89-84fe-431550296abe"/>
+		</element>
+		<element kind="staticText" uuid="4ca8d935-76b4-4ace-8946-f7d5de08f18d" x="405" y="0" width="50" height="30">
+			<text><![CDATA[BloodPressure]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f825c675-dce5-4fa0-b6d8-282dade79982"/>
+		</element>
+		<element kind="staticText" uuid="9b0bde31-ef93-478a-9433-271f57862748" x="455" y="0" width="50" height="30">
+			<text><![CDATA[Status]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b5f95099-58c9-48cc-8523-e47b0759bcfa"/>
+		</element>
+		<element kind="staticText" uuid="2c139c83-c599-4a45-ba06-a396fab2aa67" x="505" y="0" width="50" height="30">
+			<text><![CDATA[ClinicToBeAssigned]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7cea76c0-8ec2-446d-a571-d9327d1719e0"/>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="62" splitType="Stretch">
+			<element kind="textField" uuid="89869f4f-8836-44eb-81db-466c903fdfef" x="0" y="0" width="55" height="30">
+				<expression><![CDATA[$F{PatientId}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bcc5b4c6-11f5-4d48-b83e-8d36f5f6ddbc"/>
+			</element>
+			<element kind="textField" uuid="dc8dbe83-8106-4a93-a89e-1d5c7dc4f52d" x="55" y="0" width="50" height="30">
+				<expression><![CDATA[$F{Name}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ef453c48-cd5e-4ead-8e83-fd763eae1d94"/>
+			</element>
+			<element kind="textField" uuid="597d7ff5-d513-425e-bb94-117c1193817b" x="105" y="0" width="50" height="30">
+				<expression><![CDATA[$F{Address}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a6a4bfee-19a3-4a00-a1ac-b40b8579b5bc"/>
+			</element>
+			<element kind="textField" uuid="128d549b-3ca9-4c68-b722-9f409098ae16" x="155" y="0" width="50" height="30">
+				<expression><![CDATA[$F{Gender}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b03d12da-71a0-450d-8766-f15496e63c82"/>
+			</element>
+			<element kind="textField" uuid="e42d0241-4fc9-4228-82e1-da33e6c8b6a6" x="205" y="0" width="50" height="30">
+				<expression><![CDATA[$F{Age}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="29f9355c-6d5f-48ce-be5b-66aa00759c79"/>
+			</element>
+			<element kind="textField" uuid="2856a461-864f-4e58-8f6c-9186384efaa6" x="255" y="0" width="50" height="30">
+				<expression><![CDATA[$F{Phone}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="157dca0d-861b-4272-96f7-8c85c0823da7"/>
+			</element>
+			<element kind="textField" uuid="b3fa5fac-2ddd-4075-8644-05e1f7d577b0" x="305" y="0" width="50" height="30">
+				<expression><![CDATA[$F{BloodGroup}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5866ec96-4ed3-417f-ac9b-7aa3326916a5"/>
+			</element>
+			<element kind="textField" uuid="d7d2d59f-ebc6-4c75-a093-9b831d986ffc" x="355" y="0" width="50" height="30">
+				<expression><![CDATA[$F{HeartRate}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b92de6b8-904d-4a89-84fe-431550296abe"/>
+			</element>
+			<element kind="textField" uuid="9da42f79-5a2b-4755-bfc6-77558df2377d" x="405" y="0" width="50" height="30">
+				<expression><![CDATA[$F{BloodPressure}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f825c675-dce5-4fa0-b6d8-282dade79982"/>
+			</element>
+			<element kind="textField" uuid="a4ad1629-34d3-4f89-a4b0-59e9b808565c" x="455" y="0" width="50" height="30">
+				<expression><![CDATA[$F{Status}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b5f95099-58c9-48cc-8523-e47b0759bcfa"/>
+			</element>
+			<element kind="textField" uuid="3251d9de-0506-4fd7-b284-b49f43070b07" x="505" y="0" width="50" height="30">
+				<expression><![CDATA[$F{ClinicToBeAssigned}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7cea76c0-8ec2-446d-a571-d9327d1719e0"/>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="45" splitType="Stretch"/>
+	<pageFooter height="54" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>

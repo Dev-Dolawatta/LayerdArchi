@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="clinicPane" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane4" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.ManageClinicViewController">
+   <children>
+      <Label layoutX="45.0" layoutY="14.0" text="Clinic Management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="95.0" layoutY="65.0" mnemonicParsing="false" onAction="#addClinicOnClick" prefHeight="32.0" prefWidth="100.0" stylesheets="@../Style.css" text="Add">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="95.0" layoutY="142.0" mnemonicParsing="false" onAction="#updateClinicOnClick" prefHeight="32.0" prefWidth="100.0" stylesheets="@../Style.css" text="Update">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="168.0" layoutY="292.0" mnemonicParsing="false" onAction="#removeClinicOnClick" prefHeight="32.0" prefWidth="100.0" stylesheets="@../Style.css" text="Remove">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="95.0" layoutY="212.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="39.0" prefWidth="100.0" stylesheets="@../Style.css" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <ImageView fitHeight="403.0" fitWidth="347.0" layoutX="279.0">
+         <image>
+            <Image url="@../img/uroUIImg.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtClinicId" layoutX="14.0" layoutY="292.0" prefHeight="32.0" prefWidth="137.0" />
+   </children>
+</AnchorPane>

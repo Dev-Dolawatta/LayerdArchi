@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="OPDPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.DocUIViewController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.52">
+         <image>
+            <Image url="@../img/DocUIImg.png" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="68.0" prefWidth="600.0" styleClass="DashBoard" stylesheets="@../Style.css">
+         <children>
+            <Label layoutX="204.0" layoutY="18.0" text="OPD Doctor Portal">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="27.0" layoutY="123.0" text="Patient Id">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPatientId" layoutX="192.0" layoutY="123.0" />
+      <Label layoutX="27.0" layoutY="174.0" text="Blood Pressure">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="221.0" text="Heart Rate">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="267.0" text="Status">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBloodP" layoutX="192.0" layoutY="174.0" prefHeight="25.0" prefWidth="133.0" />
+      <TextField fx:id="txtHeartR" layoutX="192.0" layoutY="221.0" prefHeight="25.0" prefWidth="133.0" />
+      <TextField fx:id="txtStatus" layoutX="192.0" layoutY="264.0" prefHeight="32.0" prefWidth="392.0" />
+      <Label layoutX="27.0" layoutY="309.0" text="Clinic To Be Assigned">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="OPDCombo" layoutX="192.0" layoutY="309.0" prefWidth="150.0" />
+      <Button layoutX="519.0" layoutY="343.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="32.0" prefWidth="65.0" stylesheets="@../Style.css" text="Back">
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass></Button>
+      <Button layoutX="408.0" layoutY="343.0" mnemonicParsing="false" onAction="#AddClinicOnClick" prefHeight="32.0" prefWidth="98.0" stylesheets="@../Style.css" text="Add To Clinic">
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass></Button>
+   </children>
+</AnchorPane>

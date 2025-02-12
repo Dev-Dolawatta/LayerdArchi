@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="editMediPane" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane5" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.UpdateMedicineViewController">
+   <children>
+      <Label layoutX="191.0" layoutY="14.0" text="Edit Medicine Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Pane fx:id="txtDate" layoutX="29.0" layoutY="46.0" prefHeight="331.0" prefWidth="499.0" style="-fx-background-color: #ffc8c8;">
+         <children>
+            <Label layoutX="20.0" layoutY="26.0" text="Medicine Id">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="62.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="100.0" text="Exp Date">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="144.0" text="Mfd Date">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="190.0" text="Supplier Id">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="234.0" text="Quantity">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="275.0" text="Date">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtMedId" layoutX="159.0" layoutY="24.0" />
+            <TextField fx:id="txtName" layoutX="159.0" layoutY="60.0" prefHeight="25.0" prefWidth="255.0" />
+            <DatePicker fx:id="txtExp" layoutX="162.0" layoutY="98.0" />
+            <DatePicker fx:id="txtMfd" layoutX="162.0" layoutY="142.0" />
+            <TextField fx:id="txtQty" layoutX="162.0" layoutY="232.0" prefHeight="25.0" prefWidth="149.0" />
+            <DatePicker fx:id="txtDate" layoutX="162.0" layoutY="273.0" />
+            <Button layoutX="414.0" layoutY="286.0" mnemonicParsing="false" onAction="#updateOnClick" prefHeight="32.0" prefWidth="62.0" stylesheets="@../Style.css" text="Update">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="Lbl" />
+                  <String fx:value="buttonPressed" />
+               </styleClass>
+            </Button>
+            <ComboBox fx:id="txtSupIdCombo" layoutX="162.0" layoutY="188.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Button layoutX="537.0" layoutY="354.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="32.0" prefWidth="55.0" stylesheets="@../Style.css" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,78 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="PatientReport" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="02cbbbaf-abcd-4569-9391-84d48a3286d5">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="PatientName" class="java.lang.String"/>
+	<parameter name="ClinicId" class="java.lang.String"/>
+	<parameter name="ManagePlan" class="java.lang.String"/>
+	<parameter name="Medication" class="java.lang.String"/>
+	<parameter name="Symptoms" class="java.lang.String"/>
+	<parameter name="Diagnosis" class="java.lang.String"/>
+	<parameter name="TestId" class="java.lang.String"/>
+	<parameter name="Description" class="java.lang.String"/>
+	<parameter name="Date" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="79" splitType="Stretch">
+		<element kind="staticText" uuid="6c449e6f-8ae5-4559-afef-b49ac6c861a2" x="170" y="0" width="280" height="50" fontName="Algerian" fontSize="26.0">
+			<text><![CDATA[    Patient Report]]></text>
+		</element>
+	</title>
+	<detail>
+		<band height="510" splitType="Stretch">
+			<element kind="staticText" uuid="2d1444e9-7aab-4815-a95e-d1a7e757483c" x="0" y="10" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Patient Name]]></text>
+			</element>
+			<element kind="textField" uuid="9f00b520-1abe-460d-b8ed-a9deff805da2" x="240" y="60" width="290" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{ClinicId}]]></expression>
+			</element>
+			<element kind="staticText" uuid="5399e389-7f07-4466-8d7d-8b6fcb2ffa86" x="0" y="60" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Clinic Id]]></text>
+			</element>
+			<element kind="textField" uuid="3e138796-49e4-42c5-8983-07674b0df653" x="240" y="180" width="260" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{Medication}]]></expression>
+			</element>
+			<element kind="textField" uuid="07df1e00-f4fc-4c96-a7f0-be9c9999bd7a" x="240" y="240" width="260" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{Symptoms}]]></expression>
+			</element>
+			<element kind="textField" uuid="8b4af6b7-b16b-4bc4-9693-1da9d1197f4c" x="240" y="290" width="260" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{Diagnosis}]]></expression>
+			</element>
+			<element kind="textField" uuid="dd3d8d70-f4d0-4b73-bdd9-a1646bd9a6a6" x="240" y="340" width="260" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{TestId}]]></expression>
+			</element>
+			<element kind="textField" uuid="f67c5fbf-52d2-4751-bb54-2f7ec43cc961" x="240" y="400" width="260" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{Description}]]></expression>
+			</element>
+			<element kind="textField" uuid="d2487e1d-83ba-4b75-937c-e36439d1efc7" x="240" y="460" width="260" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{Date}]]></expression>
+			</element>
+			<element kind="staticText" uuid="66af9b8b-a29d-4414-aca5-9ebbb267b7b7" x="0" y="120" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Manage Plan]]></text>
+			</element>
+			<element kind="staticText" uuid="a91896e5-afb9-471f-830b-4efcc506f3d7" x="0" y="180" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Medication]]></text>
+			</element>
+			<element kind="staticText" uuid="249340fe-7616-4656-a8b3-b497b74c050a" x="0" y="240" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Symptoms]]></text>
+			</element>
+			<element kind="staticText" uuid="9ff6990b-c0f4-40c4-b37a-c341f01b5e78" x="0" y="290" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Diagnosis]]></text>
+			</element>
+			<element kind="staticText" uuid="eaf6f539-b123-4938-b507-398b1a265f88" x="0" y="340" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Test Id]]></text>
+			</element>
+			<element kind="staticText" uuid="10abaf5a-be91-43f9-af2c-4606d9e6cdd0" x="0" y="400" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Description]]></text>
+			</element>
+			<element kind="staticText" uuid="dab36430-9a41-4d36-9a99-e07067c17784" x="0" y="460" width="100" height="30" fontSize="22.0">
+				<text><![CDATA[Date]]></text>
+			</element>
+			<element kind="textField" uuid="c5f63a14-d5d0-4a4c-b15b-6648de367941" x="240" y="10" width="290" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{PatientName}]]></expression>
+			</element>
+			<element kind="textField" uuid="3c50f398-a91e-4fc8-8c1c-726a30c75086" x="240" y="120" width="290" height="30" fontSize="22.0">
+				<expression><![CDATA[$P{ManagePlan}]]></expression>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

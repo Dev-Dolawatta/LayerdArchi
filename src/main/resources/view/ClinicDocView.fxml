@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="clinicDocUI" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #918dac;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.ClinicDocViewController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="299.0" opacity="0.66">
+         <image>
+            <Image url="@../img/psyUIImg.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="medicalBtn" layoutX="464.0" layoutY="81.0" mnemonicParsing="false" onAction="#medicalUIOnClick" prefHeight="35.0" prefWidth="121.0" stylesheets="@../Style.css" text="Medical">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnCardiac" layoutX="464.0" layoutY="131.0" mnemonicParsing="false" onAction="#CardiacOnClick" prefHeight="35.0" prefWidth="121.0" stylesheets="@../Style.css" text="Cardiac">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnSurgical" layoutX="464.0" layoutY="174.0" mnemonicParsing="false" onAction="#surgicalUIOnClick" prefHeight="35.0" prefWidth="121.0" stylesheets="@../Style.css" text="Surgical">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnUro" layoutX="464.0" layoutY="228.0" mnemonicParsing="false" onAction="#uroUIOnClick" prefHeight="35.0" prefWidth="121.0" stylesheets="@../Style.css" text="Urology">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnNuero" layoutX="312.0" layoutY="286.0" mnemonicParsing="false" onAction="#NueroViewOnClick" prefHeight="35.0" prefWidth="114.0" stylesheets="@../Style.css" text="Nuerology">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnPsy" layoutX="468.0" layoutY="339.0" mnemonicParsing="false" onAction="#psyUIOnClick" prefHeight="35.0" prefWidth="114.0" stylesheets="@../Style.css" text="Psychiatric">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnPain" layoutX="312.0" layoutY="339.0" mnemonicParsing="false" onAction="#PainMViewOnClick" prefHeight="35.0" prefWidth="143.0" stylesheets="@../Style.css" text="Pain Management">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnGyn" layoutX="464.0" layoutY="286.0" mnemonicParsing="false" onAction="#gynObsViewOnClick" prefHeight="35.0" prefWidth="121.0" stylesheets="@../Style.css" text="Gyn &amp; Obs">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnPeadiac" layoutX="312.0" layoutY="228.0" mnemonicParsing="false" onAction="#peadiacViewOnClick" prefHeight="35.0" prefWidth="114.0" stylesheets="@../Style.css" text="Peadiatric">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnOrtho" layoutX="312.0" layoutY="174.0" mnemonicParsing="false" onAction="#OrthoUIOnClick" prefHeight="35.0" prefWidth="114.0" stylesheets="@../Style.css" text="Orthopediac">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnDerma" layoutX="312.0" layoutY="81.0" mnemonicParsing="false" onAction="#DermaViewOnClick" prefHeight="35.0" prefWidth="114.0" stylesheets="@../Style.css" text="Dermatology">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Button fx:id="btnPreOper" layoutX="312.0" layoutY="131.0" mnemonicParsing="false" onAction="#preOperViewOnClick" prefHeight="35.0" prefWidth="114.0" stylesheets="@../Style.css" text="PreOperative">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonPressed" />
+            <String fx:value="Lbl" />
+         </styleClass>
+      </Button>
+      <Pane prefHeight="69.0" prefWidth="600.0" style="-fx-background-color: black;" stylesheets="@../Style.css">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" prefHeight="35.0" prefWidth="284.0" text="Choose The Clinic" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="487.0" layoutY="12.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="38.0" prefWidth="86.0" stylesheets="@../Style.css" text="Back">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="buttonPressed" />
+                  <String fx:value="Lbl" />
+               </styleClass>
+            </Button>
+            <Button layoutX="355.0" layoutY="11.0" mnemonicParsing="false" onAction="#getDetail" prefHeight="38.0" prefWidth="114.0" stylesheets="@../Style.css" text="Get Full Detail">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="Lbl" />
+                  <String fx:value="buttonPressed" />
+               </styleClass>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

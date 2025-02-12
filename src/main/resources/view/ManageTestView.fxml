@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="testPane" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane8" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.ManageTestViewController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="310.0">
+         <image>
+            <Image url="@../img/testImg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="357.0" layoutY="14.0" text="Test Management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="414.0" layoutY="88.0" mnemonicParsing="false" onAction="#addTest" prefHeight="32.0" prefWidth="80.0" stylesheets="@../Style.css" text="Add">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="414.0" layoutY="168.0" mnemonicParsing="false" onAction="#updateTest" prefHeight="32.0" prefWidth="80.0" stylesheets="@../Style.css" text="Update">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="506.0" layoutY="323.0" mnemonicParsing="false" onAction="#removeTest" prefHeight="32.0" prefWidth="80.0" stylesheets="@../Style.css" text="Remove">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <TextField fx:id="txtTestId" layoutX="339.0" layoutY="323.0" prefHeight="32.0" prefWidth="149.0" />
+      <Button layoutX="414.0" layoutY="248.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="32.0" prefWidth="80.0" stylesheets="@../Style.css" text="Back">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

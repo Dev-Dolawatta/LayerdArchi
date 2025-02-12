@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="editPane" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane6" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.UpdateSupplierViewController">
+   <children>
+      <Label layoutX="190.0" text="Edit Supplier Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Pane layoutX="39.0" layoutY="49.0" prefHeight="333.0" prefWidth="451.0" style="-fx-background-color: #c3e1fc;">
+         <children>
+            <Label layoutX="33.0" layoutY="51.0" text="Supplier Id">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="108.0" text="Supplier Name">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="165.0" text="Company">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="228.0" text="Tel.No">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtSupId" layoutX="193.0" layoutY="49.0" />
+            <TextField fx:id="txtSupName" layoutX="193.0" layoutY="106.0" prefHeight="25.0" prefWidth="233.0" />
+            <TextField fx:id="txtCompany" layoutX="193.0" layoutY="163.0" prefHeight="25.0" prefWidth="233.0" />
+            <TextField fx:id="txtTelNo" layoutX="193.0" layoutY="226.0" />
+            <Button layoutX="359.0" layoutY="287.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="32.0" prefWidth="67.0" stylesheets="@../Style.css" text="Update">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="Lbl" />
+                  <String fx:value="buttonPressed" />
+               </styleClass>
+            </Button>
+         </children>
+      </Pane>
+      <Button layoutX="517.0" layoutY="349.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="32.0" prefWidth="67.0" stylesheets="@../Style.css" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

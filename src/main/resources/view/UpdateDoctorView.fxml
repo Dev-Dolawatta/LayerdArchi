@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="updatedDocPane" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane3" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.UpdateDoctorViewController">
+   <children>
+      <Label layoutX="220.0" layoutY="6.0" text="Edit Doctor Details">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Pane layoutX="32.0" layoutY="33.0" prefHeight="315.0" prefWidth="503.0" style="-fx-background-color: #d3ceba;">
+         <children>
+            <Label layoutX="13.0" layoutY="24.0" text="Doctor Id ">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="62.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="106.0" text="Salary">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="147.0" text="Position">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="262.0" text="Clinic Id">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="186.0" text="Username">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="227.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtDId" layoutX="172.0" layoutY="22.0" prefHeight="25.0" prefWidth="91.0" />
+            <TextField fx:id="txtSalary" layoutX="172.0" layoutY="104.0" />
+            <TextField fx:id="txtUName" layoutX="172.0" layoutY="184.0" />
+            <TextField fx:id="txtPw" layoutX="172.0" layoutY="225.0" />
+            <TextField fx:id="txtClinicId" layoutX="172.0" layoutY="260.0" prefHeight="25.0" prefWidth="91.0" />
+            <TextField fx:id="txtName" layoutX="172.0" layoutY="60.0" prefHeight="25.0" prefWidth="263.0" />
+            <ComboBox fx:id="updateDocCombo" layoutX="172.0" layoutY="145.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Button layoutX="438.0" layoutY="361.0" mnemonicParsing="false" onAction="#updateOnClick" stylesheets="@../Style.css" text="Update">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="512.0" layoutY="361.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="27.0" prefWidth="62.0" stylesheets="@../Style.css" text="Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

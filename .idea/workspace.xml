@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6dd31d66-994f-4296-9a2a-0bfb7cd75a86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/BOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/ClinicBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/DoctorBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/EmployeeBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/MedicineBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/PatientBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/ReportBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/SuperBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/SupplierBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/TestBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/impl/ClinicBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/impl/DoctorBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/impl/EmployeeBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/impl/MedicineBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/impl/PatientBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/impl/ReportBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/impl/SupplierBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/bo/custom/impl/TestBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/AddClinicViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/AddDocViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/AddEmployeeViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/AddMedicineViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/AddSupplierViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/AddTestViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/CardiacListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/ClinicDocViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/DermaListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/DocUIViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/FullPatientDetailViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/GynListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/MainLoginViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/MainUIViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/ManageClinicViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/ManageEmployeeViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/ManageMedicineViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/ManagePatientViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/ManageSuppliersViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/ManageTestViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/MedicalClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewAdminViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewCardiacClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewDermatologyClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewDocManageViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewEnrollPatientViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewGynObsClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewManageDoctorViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewManagePatientViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewNuerologyClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewOrthopeadiacClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewPainManagementClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewPeadiatricClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewPreOperativeClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewPsychiatricClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewSurgicalClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewUpdateClinicViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NewUrologyClViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/NueroListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/OrthoListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/PainListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/PatientListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/PeadiacListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/PreoperListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/PsyListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/ReceptionistViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/SurgicalListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/UpdateClinicViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/UpdateDoctorViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/UpdateEmployeeViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/UpdateMedicineViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/UpdatePatientViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/UpdateSupplierViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/UpdateTestViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/controller/UrologyListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/CrudDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/SQLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/SuperDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/ClinicDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/DoctorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/MedicineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/PatientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/ReportDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/SupplierDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/TestDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/impl/ClinicDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/impl/DoctorDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/impl/MedicineDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/impl/PatientDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/impl/ReportDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/impl/SupplierDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dao/custom/impl/TestDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/AddMedicineDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/CardiacDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/ClinicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/DoctorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/FullDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/NewPatientDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/PatientCStatusDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/PatientClinicDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/PatientCurrentDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/PatientDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/PatientDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/PatientListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/ReportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/SupplierDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/TestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/dto/UpdateClinicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/AddMedicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/Cardiac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/Clinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/FullDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/NewPatientDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/PatientCStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/PatientClinicDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/PatientCurrentDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/PatientDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/PatientList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse71/clinicmanagementsystem/entity/UpdateClinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Report/PatientReport.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Report/firstReport.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/DocUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/RecepImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/SurgicalClImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/addPatientImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/adminImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/cardiacUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/clinicDocUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/dermaUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/docManage2Img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/docManageImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/employee3Img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/employee5Img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/employeeImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/entryImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/gynUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/mainLoginImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/managePatientImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/medicalClImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/medicineManageImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/nueroUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/painMUI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/peadiacUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/preOperUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/psyUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/supManage3Img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/testImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/uroUIImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AddClinicView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AddDocView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AddEmployeeView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AddMedicineView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AddSupplierView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AddTestView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/CardiacListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ClinicDocView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/DermaListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/DocUIView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/FrontLoginView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/FullPatientDetailView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/GynListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/MainLoginView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/MainUIView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ManageClinicView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ManageEmployeeView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ManageMedicineView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ManageSuppliersView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ManageTestView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/MedicalClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewAdminView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewCardiacClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewDermatologyClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewDocManageView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewEnrollPatientView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewGynObsClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewManageDoctorView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewManagePatientView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewNuerologyClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewOrthopeadiacClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewPainManagementClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewPeadiatricClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewPreOperativeClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewPsychiatricClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewSurgicalClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewUpdateClinicView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NewUrologyClView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/NueroListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/OrthoListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/PainListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/PatientListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/PeadiacListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/PreoperListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/PsyListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ReceptionistView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/SurgicalListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UpdateClinicView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UpdateDoctorView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UpdateEmployeeView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UpdateMedicineView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UpdatePatientView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UpdateSupplierView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UpdateTestView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UrologyListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/newLoginVeiw.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qk1QkK0MwudeoCVfWNSW765gPo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ClinicManagementSystem [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/firstSemProject/currentUsingP/ClinicManagementSystem/src/main/resources/Report&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\firstSemProject\currentUsingP\ClinicManagementSystem\src\main\resources\Report" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6dd31d66-994f-4296-9a2a-0bfb7cd75a86" name="Changes" comment="" />
+      <created>1735191744295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735191744295</updated>
+      <workItem from="1735191745514" duration="345000" />
+      <workItem from="1735192285620" duration="13323000" />
+      <workItem from="1735226209475" duration="1369000" />
+      <workItem from="1735259284289" duration="7478000" />
+      <workItem from="1735360440965" duration="26021000" />
+      <workItem from="1735451912423" duration="4145000" />
+      <workItem from="1735532113386" duration="21597000" />
+      <workItem from="1735566083601" duration="4803000" />
+      <workItem from="1735631436719" duration="20056000" />
+      <workItem from="1735728592265" duration="7674000" />
+      <workItem from="1735820453198" duration="12033000" />
+      <workItem from="1735905829554" duration="68000" />
+      <workItem from="1735965567384" duration="74000" />
+      <workItem from="1735980558106" duration="283000" />
+      <workItem from="1736001585770" duration="11920000" />
+      <workItem from="1736029794027" duration="235000" />
+      <workItem from="1736045461194" duration="6297000" />
+      <workItem from="1736058657747" duration="587000" />
+      <workItem from="1736087748332" duration="868000" />
+      <workItem from="1736234589473" duration="6590000" />
+      <workItem from="1736243989173" duration="12797000" />
+      <workItem from="1736315037204" duration="17494000" />
+      <workItem from="1736567732325" duration="15000" />
+      <workItem from="1737089189080" duration="660000" />
+      <workItem from="1737361849698" duration="188000" />
+      <workItem from="1738042380081" duration="2273000" />
+      <workItem from="1738070108985" duration="215000" />
+      <workItem from="1738478957057" duration="2562000" />
+      <workItem from="1738648545498" duration="649000" />
+      <workItem from="1738679511689" duration="11000" />
+      <workItem from="1738731385097" duration="26000" />
+      <workItem from="1738747911000" duration="303000" />
+      <workItem from="1739172739440" duration="30482000" />
+      <workItem from="1739250198478" duration="21909000" />
+      <workItem from="1739343133058" duration="1178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

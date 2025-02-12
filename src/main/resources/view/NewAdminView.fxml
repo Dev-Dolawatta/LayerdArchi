@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminPane" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.clinicmanagementsystem.controller.NewAdminViewController">
+   <children>
+      <Pane layoutX="146.0" layoutY="80.0" prefHeight="306.0" prefWidth="440.0">
+         <children>
+            <ImageView fitHeight="306.0" fitWidth="440.0">
+               <image>
+                  <Image url="@../img/adminImg.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button layoutX="6.0" layoutY="80.0" mnemonicParsing="false" onAction="#docManageOnClick" prefHeight="39.0" prefWidth="136.0" stylesheets="@../Style.css" text="Manage Doctors">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="6.0" layoutY="135.0" mnemonicParsing="false" onAction="#supplierManageOnClick" prefHeight="39.0" prefWidth="136.0" stylesheets="@../Style.css" text="Manage Suppliers">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="6.0" layoutY="187.0" mnemonicParsing="false" onAction="#employeeManageOnClick" prefHeight="39.0" prefWidth="136.0" stylesheets="@../Style.css" text="Manage Employee">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="6.0" layoutY="240.0" mnemonicParsing="false" onAction="#clinicManageOnClick" prefHeight="39.0" prefWidth="136.0" stylesheets="@../Style.css" text="Manage Clinics">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="6.0" layoutY="290.0" mnemonicParsing="false" onAction="#MedicineManageOnClick" prefHeight="39.0" prefWidth="136.0" stylesheets="@../Style.css" text="Manage Medicine">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Button layoutX="9.0" layoutY="338.0" mnemonicParsing="false" onAction="#testManageOnClick" prefHeight="39.0" prefWidth="129.0" stylesheets="@../Style.css" text="Manage Tests">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+      <Label layoutX="200.0" layoutY="23.0" text="Clinic Admin Portal" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="502.0" layoutY="26.0" mnemonicParsing="false" onAction="#logoutOnClick" stylesheets="@../Style.css" text="LogOut">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Lbl" />
+            <String fx:value="buttonPressed" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>
