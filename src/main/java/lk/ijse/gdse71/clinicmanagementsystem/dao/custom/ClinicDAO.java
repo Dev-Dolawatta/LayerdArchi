@@ -7,7 +7,7 @@ import lk.ijse.gdse71.clinicmanagementsystem.dto.PatientDetailsDTO;
 
 import java.sql.SQLException;
 
-public interface ClinicDAO extends CrudDAO<ClinicDTO> {
+public interface    ClinicDAO extends CrudDAO<ClinicDTO> {
 //    boolean addClinic(ClinicDTO clinicDTO) throws SQLException;
 //    boolean updateClinic(ClinicDTO clinicDTO) throws SQLException;
 //boolean removeClinic(String id) throws SQLException;
